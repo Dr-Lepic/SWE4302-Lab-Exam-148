@@ -47,8 +47,13 @@ public class Order {
     }
 
     double getTotalPrice(){
-        totalPrice = amount + tax;
         return totalPrice;
+    }
+
+    void calculate(){
+        calculateAmount();
+        calculateTax();
+        totalPrice = amount + tax;
     }
 
 
