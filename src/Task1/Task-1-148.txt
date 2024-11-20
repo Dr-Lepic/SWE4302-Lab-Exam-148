@@ -1,0 +1,10 @@
+6-198, Long Class, the class is doing a lot of work
+41, long method, the method is very long
+41, long parameter, the method is taking too many parameter
+74, long method, the method is very long
+132, long method, the method is very long
+132, long parameter, the method is taking too many parameter
+44-68, conditional complexity, too many if-clause
+78-99, conditional complexity, used switch cases
+80-94, primitive obsession, used numbers without actual meaning
+
