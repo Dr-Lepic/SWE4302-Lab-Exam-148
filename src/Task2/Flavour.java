@@ -1,23 +1,19 @@
 package Task2;
 
-public abstract class Flavour {
-    String name;
-    int count;
-    double price;
+public class Flavour extends Item {
+
     public Flavour(String name, int count, double price) {
-        this.name = name;
-        this.count = count;
-        this.price = price;
+        super(name, count, price);
     }
 
-    public int getScoopCount(){
+    public int getCount(){
         return count;
     }
     public double getPrice(){
         return price;
     }
 
-    public double getTotalPrice(){
+    public double getCost(){
         return price * count;
     }
 
